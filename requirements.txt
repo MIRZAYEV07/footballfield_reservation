@@ -1,0 +1,34 @@
+# Python
+whitenoise
+pre-commit
+Pillow
+
+
+# Django
+Django
+django-extensions
+django-cors-headers
+django-phonenumber-field
+phonenumbers
+django-rest-swagger
+django-storages
+boto3
+django-autoslug
+django-modeltranslation
+djangorestframework-simplejwt
+dj-rest-auth
+djangorestframework-jwt
+drf-yasg
+djangorestframework-gis
+
+
+
+
+
+# Rest Framework
+djangorestframework
+django-filter
+
+
+# Postgres
+psycopg2-binary

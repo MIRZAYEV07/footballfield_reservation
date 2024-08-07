@@ -1,0 +1,32 @@
+version: "3"
+services:
+
+
+  postgresql:
+    container_name: football_postgres
+    image: postgres:13
+    hostname: postgres
+    ports:
+      - "5433:5433"
+    volumes:
+      - postgresql_data_7:/var/lib/postgresql/data/
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: football_postgresdb
+      TZ: Asia/Tashkent
+    networks:
+        - football_network
+
+
+
+
+volumes:
+
+
+  postgresql_data_7:
+
+
+
+networks:
+  football_network:
